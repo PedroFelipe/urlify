@@ -1,16 +1,17 @@
 {
-    "name": "urlify",
+    "name": "urlify-fixed",
     "main": "urlify.js",
-    "version": "1.1.0",
-    "homepage": "https://github.com/nikpachoo/urlify",
+    "version": "1.1.1",
+    "homepage": "https://github.com/pedrofelipe/urlify",
 
     "repository": {
         "type": "git",
-        "url": "git://github.com/nikpachoo/urlify.git"
+        "url": "git://github.com/pedrofelipe/urlify.git"
     },
 
     "authors": [
-        "nikpachoo <Nikolay.Pachkov@umisoft.ru>"
+        "nikpachoo <Nikolay.Pachkov@umisoft.ru>",
+        "pedrofelipe <pedro@pedrofelipe.com.br>"
     ],
 
     "description": "JavaScript wrapper for URLify.js from the Django project. Transliterates non-ascii characters for use in URLs.",
