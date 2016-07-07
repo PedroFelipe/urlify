@@ -174,7 +174,8 @@
         // remove all these words from the string before urlifying
         s = downcode(s);
         // if downcode doesn't hit, the char will be stripped here
-        s = s.replace(/[^-\w\s]/g, '-');  // remove unneeded chars
+        s = s.replace(/\./g, '-');       // convert dots to hyphens
+        s = s.replace(/[^-\w\s]/g, '');  // remove unneeded chars
         s = s.replace(/^\s+|\s+$/g, ''); // trim leading/trailing spaces
         s = s.replace(/[-\s]+/g, '-');   // convert spaces to hyphens
         s = s.toLowerCase();             // convert to lowercase
